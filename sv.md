@@ -46,11 +46,7 @@ alert(myF(str));
 ## **Experience**
 I don't have any work experience in the company yet. While studying at TeachMeSkills, I independently developed several small projects (https://smska2021.github.io/companySeaFishes) (https://smska2021.github.io/Travel-Company). I have extensive teaching experience (18 years). For the last five years, she has been a local network administrator and was responsible for installing software and operating systems. I have extensive experience in shooting and video editing.
 
-## **Languages**
-* Russian
-* Englis
-* Polish 
-* Belarusian
+
 ---
 ## **My Contact Info**
 * Address: 5b/5 October st. Braslav, Belarus
