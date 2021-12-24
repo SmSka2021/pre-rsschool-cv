@@ -52,6 +52,13 @@ I don't have any work experience in the company yet. While studying at TeachMeSk
 * Polish 
 * Belarusian
 ---
+## **My Contact Info**
+* Address: 5b/5 October st. Braslav, Belarus
+* Phone: +375 33 6454419
+* E-mail: Sve-Mac@yandex.ru
+* LinkedIn: (https://www.linkedin.com/in/светлана-мацкевич-4b091a224)
+* GitHub: (https://github.com/SmSka2021)
+* CodePen: (https://codepen.io/smska2021)
 
 
 
