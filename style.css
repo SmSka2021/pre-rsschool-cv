@@ -31,13 +31,15 @@ body {
     background-color: gold;
     display: flex;  
     justify-content: center; 
+    align-items:center;
     z-index: 2;
 }
 
-img {
-    max-width: 100%;
+.header img {
+   width: 90px;
+   height: 90px;
     border-radius: 50%;
-    margin: 20px 7% 20px 1%;
+    margin: 0 7% 0 1%;
 }
 .nav-list {
     display: flex;
