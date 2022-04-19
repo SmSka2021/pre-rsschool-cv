@@ -29,14 +29,15 @@ body {
     grid-row: 2 / 3;
     border-radius: 35px;
     background-color: gold;
-    display: flex;
+    display: flex;  
+    justify-content: center; 
     z-index: 2;
 }
 
 img {
     max-width: 100%;
     border-radius: 50%;
-    margin: 25px 55px;
+    margin: 25px 7% 25px 1%;
 }
 .nav-list {
     display: flex;
@@ -162,7 +163,6 @@ h3 {
 
 .main__skills h2,
 .main__education h2,
-.main__summary h2,
 .main__experience h2 {
     background-color: navy;
     border: 1px solid navy;
@@ -175,13 +175,13 @@ h3 {
 
 .main__skills,
 .main__education,
-.main__summary,
 .main__experience {
     padding-left: 35px;
 }
 
 .main__skills li,
-.main__education li {
+.main__education li,
+.main__experience li {
     color: navy;
     font-size: 14px;
     line-height: 20px;
@@ -189,21 +189,19 @@ h3 {
     font-weight: 600;
 }
 
-.main__summary p,
-.main__experience p,
-.main__experience li {
+.main__experience p {
     color: navy;
-    font-size: 14px;
     line-height: 18px;
     margin-left: 15px;
     margin-right: 25px;
     font-weight: 600;
     text-align: justify;
+    font-size: 14px;
 }
 
 .main__experience ul {
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-bottom: 15px;
 }
 
@@ -247,4 +245,24 @@ h3 {
     .footer {
         margin-top: 30px;
     }
+    .main__experience ul {
+        padding-left: 0;
+        margin-left: 5px;
+       
+    }
+    .aside__code p {
+        margin-left: 15px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    
+    .aside__code pre {
+        margin-left: 0;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 864px) {
+    .main__experience a {
+        font-size: 11px;   
+}
 }
