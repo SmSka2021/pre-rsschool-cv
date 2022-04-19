@@ -37,7 +37,7 @@ body {
 img {
     max-width: 100%;
     border-radius: 50%;
-    margin: 25px 7% 25px 1%;
+    margin: 20px 7% 20px 1%;
 }
 .nav-list {
     display: flex;
@@ -235,6 +235,12 @@ h3 {
 }
     
 @media screen and (max-width: 1000px) {
+    body {
+       grid-template-rows: 20px 100px 300px 300px 300px 100px 20px;
+    }
+    .aside__contact, .main__skills {
+        margin-top: 135px;
+    }
     .nav {       
         display: none;        
     }
@@ -260,9 +266,16 @@ h3 {
         margin-left: 0;
         font-size: 11px;
     }
+    .header h1 {      
+        font-size: 30px;       
+    }
+    img {
+        margin: 7px 7% 7px 1%;
+    }
 }
 @media screen and (max-width: 864px) {
     .main__experience a {
         font-size: 11px;   
 }
+
 }
